@@ -6,9 +6,15 @@
 	$email = $_POST['email'];
 
 	if($nome == "richard"&& $email == "richard@etec.cia"){
-		echo "válido <br/>";
+		echo "<table border=1>";
+		echo "<tr>";
+		echo "<td>";
+		echo "<strong>Bem vindo ao sistema<strong/> <br/>";
+			echo "</td>";
+		echo "</tr>";
+		echo "</table>";
 	} else{
-		echo "nao válido <br/>";
+		echo " <strong>usuário inválido<strong/><br/>";
 	}
 
  ?>
