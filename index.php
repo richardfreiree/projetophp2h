@@ -16,7 +16,7 @@
 
 		<form action="#" method="post"> 
 			<label for="primeiroNome">Primeiro Nome</label>
-			<input type="text" name="primeiroNome" id="primeiroNome" placeholder="Insira o Primeiro Nome" maxlength="50" required>
+			<input type="text" name="primeiroNome" id="primeiroNome" placeholder="Insira o Primeiro Nome" maxlength="50" required autofocus>
 
 			<label for="sobrenome">Sobrenome</label>
 			<input type="text" name="sobrenome" id="sobrenome" placeholder="Insira o Sobrenome" maxlength="50" required>
@@ -29,6 +29,8 @@
 			<option value="passaro">Pássaro</option>
 
 			</select>
+			<button type="submit" id="enviar">Enviar</button>
+			<button type="reset" id="limpar">Limpar</button>
 		</form>
 
 </body>
