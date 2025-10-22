@@ -14,10 +14,10 @@
 
 	<main class="container-md">
 	<h1>Cadastro de Usuários</h1>
-		<form action="#" method="post"> 
+		<form action="include/cadastrar.php" method="post"> 
 			<div class="md-3">
 			<label for="primeiroNome">Primeiro Nome</label>
-			<input type="text" name="primeiroNome" id="primeiroNome" placeholder="Insira o Primeiro Nome" maxlength="50" required autofocus>
+			<input type="text" name="primeiroNome" id="primeiroNome" placeholder="Insira o Primeiro Nome" maxlength="50" required autofocus autocomplete="off">
 		</div>
 		<div class="md-3">
 			<label for="sobrenome">Sobrenome</label>
