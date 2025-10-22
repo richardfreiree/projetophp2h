@@ -1,5 +1,7 @@
 <?php 
+$primeiroNome = $_POST['primeiroNome'];
+$sobrenome = $_POST['sobrenome'];
+$escolhaPets = $_POST['escolhaPets'];
 
-echo "Cadastrado com sucesso";
-echo "<a href ="projetophp2h/index.php">Voltar</a>";
- ?>
+echo($primeiroNome . " - " . $sobrenome . " - " . $escolhaPets);
+?>
